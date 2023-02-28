@@ -19,6 +19,11 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function redirectToUrl() {
+          window.location.href = "http://book.themangalview.com";
+        }
+    </script>
 </head>
 
 
@@ -51,7 +56,7 @@
           <li><a href="/mangalview-v2/TheManglaView/templates/restaurant1.html">Dining</a></li>
           <li><a href="/mangalview-v2/TheManglaView/templates/events1.html">Gallery</a></li>
           <li><a href="#">Contact Us</a></li>
-          <li class="last-butn"><a href="#"><button class="book-butn1">BOOK NOW</button></a></li>
+          <li class="last-butn"><a href="#"><button class="book-butn1" onclick="redirectToUrl()"> BOOK NOW </button></a></li>
         </ul>
         </div>
       </nav>
