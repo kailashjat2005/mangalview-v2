@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: rgba(231, 228, 228, 1);
+    background-color:white;
   }
   .logo{   
     display: flex;
