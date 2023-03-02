@@ -11,7 +11,7 @@
 
 body{
   min-height: 100vh;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   background-color: #f1f1f1;
@@ -121,25 +121,11 @@ border-radius: 20px;
 /*  */
 /*-----------------------------our story end  */
 
-html {
-  box-sizing: border-box;
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: Roboto, sans-serif;
-}
 
 .slider {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
   position: relative;
   width: 100%;
   height: 300px;
