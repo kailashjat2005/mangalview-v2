@@ -19,13 +19,12 @@
   <!-- bootstrap cdn link -->
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
-
-
-  <style>
-
-
-
-  </style>
+  <!-- Script for button click -->
+  <script>
+    function redirectToUrl() {
+          window.location.href = "https://book.themangalview.com/booking/book-rooms-themangalviewresidency";
+    }
+  </script>
 </head>
 <body>
     
@@ -46,18 +45,18 @@
       
       <nav class="Main_navbar">
         <div class="logo">
-          <a href="#"><img src="/TheManglaView/static/images/logo.png" alt="Logo"></a>
+          <a href="#"><img src="/static/images/logo.png" alt="Logo"></a>
         </div>
       
         <div class="pages">
         <ul class="navigation">
-          <li><a href="/TheManglaView/templates/Mangalview.html">Home</a></li>
-          <li><a href="/TheManglaView/templates/ourstory.html">Our Story</a></li>
-          <li><a href="/TheManglaView/templates/facilities1.html">Rooms & Facilities </a></li>
-          <li><a href="/TheManglaView/templates/restaurant1.html">Dining</a></li>
-          <li><a href="/TheManglaView/templates/events1.html">Gallery</a></li>
-          <li><a href="/TheManglaView/templates/contact1.html">Contact Us</a></li>
-          <li class="last-butn"><a href="#"><button class="book-butn1">BOOK NOW</button></a></li>
+          <li><a href="/templates/Mangalview.html">Home</a></li>
+          <li><a href="/templates/ourstory.html">Our Story</a></li>
+          <li><a href="/templates/facilities1.html">Rooms & Facilities </a></li>
+          <li><a href="/templates/restaurant1.html">Dining</a></li>
+          <li><a href="/templates/events1.html">Gallery</a></li>
+          <li><a href="/templates/contact1.html">Contact Us</a></li>
+          <li class="last-butn"><a href="#"><button class="book-butn1" onclick="redirectToUrl()">Book Your Stay</button></a></li>
         </ul>
         </div>
       </nav>
