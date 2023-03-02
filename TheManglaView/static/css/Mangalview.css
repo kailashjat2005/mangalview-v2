@@ -649,10 +649,11 @@ img{
     box-sizing: border-box;   
    }
    .logo-sec-footer img{
-    height: 50%;
+    height: 40%;
     width: 70%;
-    margin-top: 35px;
+    margin-top: 42px;
    }
+
   
  /* ------ */
  .footer_center_div1{
